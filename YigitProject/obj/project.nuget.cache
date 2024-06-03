@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ngxm9il19j5XZEXMIVoLJCB8ZHH7JeKnTyq/dcMdFGML5FN9vpDAzY1Y0mSyNZdohaeKNEdUr/F+2jvX6fVK9A==",
+  "dgSpecHash": "kISnel6pUx7cs21KQrEsnRQbXFpU8AvRnrJNoVvTkrzfpW8ysielgUnzII28lc5UHgrQFg+xuVrwZAkn3vjytQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\seyhm\\Source\\Yi-itProject\\YigitProject\\YigitProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\seyhm\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\seyhm\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\seyhm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\seyhm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\seyhm\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
