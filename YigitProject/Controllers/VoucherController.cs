@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
 using YigitProject.Models;
-using Newtonsoft.Json;
 namespace YigitProject.Controllers
 {
     [Route("api/[controller]")]
@@ -10,12 +8,14 @@ namespace YigitProject.Controllers
     {
         [HttpPost]
         public IActionResult Voucher(List<VoucherModel> vouchers)
-        {         
-            foreach (var voucher in vouchers)
+        {
+            string description = vouchers[0].Description;
+
+            List<string> lines = new List<string>(description.Split('\n'));
+
+            foreach (string line in lines)
             {
-                Console.WriteLine($"Metin: {voucher.Description}");
-                Console.WriteLine($"Koordinatlar: x={voucher.boundingPoly.Vertices[0].X}, y={voucher.boundingPoly.Vertices[0].Y}");
-                Console.WriteLine();
+                Console.WriteLine(line);
             }
             return Json(vouchers);
         }
